@@ -1,0 +1,152 @@
+@media (max-width: 600px) and (min-width: 300px){
+    
+    #contain{
+        width: 100% !important;
+        
+    }
+
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 10px;
+        margin-right: 30px;
+    }
+
+    nav ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    a:hover{
+        color: #00abf0;
+    }
+
+    #home{
+        margin-top: 1rem;
+        height: 100vh;
+    }
+    #home-p{
+        margin-top: 4rem;
+    }
+
+    #home-p h1{
+        margin-top: 4rem;
+        font-size: 40px;
+        display: flex;
+        top: 8rem;
+    }
+    #home-p h3{
+        font-size: 30px;
+
+    }
+
+    #home{
+            background: url('profile.png');
+            background-size: 45%;
+            background-repeat: no-repeat;
+            display: flex;
+            background-position: center -100px;
+            background-position-x: 0;
+            width: 100vh;
+            
+            
+    }
+
+    #project{
+        width: 100vh !important;
+        height: 100vh !important;
+    }
+    
+    #project-text{
+        font-size: 30px;
+        margin-top: 40px !important;
+    }
+
+    #pr-content{
+        margin-top: 10px !important;
+        width: 100% !important;
+        height: 60% !important;
+        top: 2rem !important;
+    }
+
+    #pr1{
+        width: 650px !important;
+        margin-left: 1px !important;
+        height: 300px !important;
+    }
+    #pr2{
+        width: 650px !important;
+        margin-left: 80px !important;
+        height: 300px !important;
+        
+    }
+
+    #pr3{
+        width: 650px !important;
+        margin-right: 1px !important;
+        height: 300px !important;
+        
+    }
+
+
+    
+    #about{
+        position: relative;
+        width: 100vh !important;
+        height: 100% !important;
+    }
+    #about-text{
+        width: 100vh !important;
+    }
+    h1{
+        font-size: 30px !important;
+        margin-top: 1rem !important;
+
+    }
+    
+
+    #parent{
+        width: 100vh !important;
+        margin-right: 0 !important;
+    }
+
+    #about-content{
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 20px !important;
+        width: 100%;
+    }
+
+
+    #skill-content{
+        padding-top: 40px !important;
+        margin-top: 100px !important;
+        width: 50%;
+        height: 60% !important;
+        margin-left: 25%;
+
+    }
+    
+    #contact{
+        width: 110vh !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        height: 100%;
+    }
+    #contact2{
+        padding: 0 !important;
+        margin: 0 !important;
+        height: 30vh!important;
+        width: 110vh;
+    }
+    #contact-text{
+        margin-top: 100px !important;
+    }
+    #git{
+        margin-left: 300px !important;
+    }
+
+    #Gmail{
+        margin-right: 300px !important;
+    }
+}
